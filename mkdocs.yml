@@ -14,6 +14,7 @@ nav:
                 - AZT106.1 - Gather AAD Role Information: Reconnaissance/AZT106/AZT106-1.md
                 - AZT106.2 - Gather Application Role Information: Reconnaissance/AZT106/AZT106-2.md
                 - AZT106.3 - Gather Azure Resources Role Assignments: Reconnaissance/AZT106/AZT106-3.md
+                - AZT106.4 - List Transitive Role Assignments: Reconnaissance/AZT106/AZT106-4.md
                 - AZT107 - Gather Resource Data: Reconnaissance/AZT107/AZT107.md
                 - AZT108 - Gather Victim Data: Reconnaissance/AZT108/AZT108.md
         - Initial Access:
@@ -47,7 +48,8 @@ nav:
                 - AZT201 - Valid Credentials: InitialAccess/AZT201/AZT201.md
                 - AZT401 - Privileged Identity Management Role: PrivilegeEscalation/AZT401/AZT401.md
                 - AZT402 - Elevated Access Toggle: PrivilegeEscalation/AZT402/AZT402.md
-                - AZT403 - Local Resource Hijack: PrivilegeEscalation/AZT403/AZT403-1.md
+                - AZT403 - Local Resource Hijack: PrivilegeEscalation/AZT403/AZT403.md
+                - AZT403.1 - Cloud Shell .IMG: PrivilegeEscalation/AZT403/AZT403-1.md
                 - AZT404 - Principal Impersonation: PrivilegeEscalation/AZT404/AZT404.md
                 - AZT404.1 - Function Application: PrivilegeEscalation/AZT404/AZT404-1.md
                 - AZT404.2 - Logic Application: PrivilegeEscalation/AZT404/AZT404-2.md
@@ -75,7 +77,8 @@ nav:
                 - AZT503.3 - Runbook Webhook: Persistence/AZT503/AZT503-3.md
                 - AZT503.4 - WebJob: Persistence/AZT503/AZT503-4.md
                 - AZT504 - Watcher Tasks: Persistence/AZT504/AZT504.md
-                - AZT505 - Scheduled Jobs: Persistence/AZT505/AZT505-1.md
+                - AZT505 - Scheduled Jobs: Persistence/AZT505/AZT505.md
+                - AZT505.1 - Runbook Schedules: Persistence/AZT505/AZT505-1.md
                 - AZT506 - Network Security Group Modification: Persistence/AZT506/AZT506.md
                 - AZT507 - External Entity Access: Persistence/AZT507/AZT507.md     
                 - AZT507.1 - Azure Lighthouse: Persistence/AZT507/AZT507-1.md
@@ -92,8 +95,10 @@ nav:
                 - AZT601.3 - Logic Application JWT PUT Request: CredentialAccess/AZT601/AZT601-3.md
                 - AZT601.4 - Function Application JWT GET Request: CredentialAccess/AZT601/AZT601-4.md
                 - AZT601.5 - Automation Account Runbook: CredentialAccess/AZT601/AZT601-5.md
-                - AZT602 - Steal Service Principal Certificate: CredentialAccess/AZT602/AZT602-1.md
-                - AZT603 - Service Principal Secret Reveal: CredentialAccess/AZT603/AZT603-1.md
+                - AZT602 - Steal Service Principal Certificate: CredentialAccess/AZT602/AZT602.md
+                - AZT602.1 - Automation Account RunAs Account: CredentialAccess/AZT602/AZT602-1.md
+                - AZT603 - Service Principal Secret Reveal: CredentialAccess/AZT603/AZT603.md
+                - AZT603.1 - Function App Settings: CredentialAccess/AZT603/AZT603-1.md
                 - AZT604 - Azure KeyVault Dumping: CredentialAccess/AZT604/AZT604.md
                 - AZT604.1 - Azure KeyVault Secret Dump: CredentialAccess/AZT604/AZT604-1.md
                 - AZT604.2 - Azure KeyVault Certificate Dump: CredentialAccess/AZT604/AZT604-2.md
@@ -108,8 +113,10 @@ nav:
                 - AZT701 - SAS URI Generation: Impact/AZT701/AZT701.md
                 - AZT701.1 - VM Disk SAS URI: Impact/AZT701/AZT701-1.md
                 - AZT701.2 - Storage Account File Share SAS: Impact/AZT701/AZT701-2.md
-                - AZT702 - File Share Mounting: Impact/AZT702/AZT702-1.md
-                - AZT703 - Replication: Impact/AZT703/AZT703-1.md
+                - AZT702 - File Share Mounting: Impact/AZT702/AZT702.md
+                - AZT702.1 - Storage Account File Share NFS/SMB Mount: Impact/AZT702/AZT702-1.md
+                - AZT703 - Replication: Impact/AZT703/AZT703.md
+                - AZT703.1 - Storage Account Replication: Impact/AZT703/AZT703-1.md
                 - AZT704 - Soft-Delete Recovery: Impact/AZT704/AZT704.md
                 - AZT704.1 - Key Vault: Impact/AZT704/AZT704-1.md   
                 - AZT704.2 - Storage Account Object: Impact/AZT704/AZT704-2.md   
